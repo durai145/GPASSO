@@ -1,2 +1,1 @@
-# GPASSO
-# GPASSO
+# GPASSO - Global Product Admin Single Sign On
