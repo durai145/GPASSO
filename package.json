@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "log": "^1.4.0"
+    "log": "^1.4.0",
+    "winston": "^3.1.0"
   }
 }

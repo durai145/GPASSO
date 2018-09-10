@@ -1,0 +1,1103 @@
+[Sun Sep 09 2018 20:24:49 GMT-0400 (EDT)] INFO InvokeDB:IDB.001 valWithSch
+[Sun Sep 09 2018 20:24:49 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageId:சேவைDetails
+[Sun Sep 09 2018 20:24:49 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageType:getசேவைDetails
+[Sun Sep 09 2018 20:28:12 GMT-0400 (EDT)] INFO InvokeDB:IDB.001 valWithSch
+[Sun Sep 09 2018 20:28:12 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageId:சேவைDetails
+[Sun Sep 09 2018 20:28:12 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageType:getசேவைDetails
+[Sun Sep 09 2018 20:35:24 GMT-0400 (EDT)] INFO InvokeDB:IDB.001 valWithSch
+[Sun Sep 09 2018 20:35:24 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageId:சேவைDetails
+[Sun Sep 09 2018 20:35:24 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageType:getசேவைDetails
+[Sun Sep 09 2018 20:41:00 GMT-0400 (EDT)] INFO InvokeDB:IDB.001 valWithSch
+[Sun Sep 09 2018 20:41:00 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageId:சேவைDetails
+[Sun Sep 09 2018 20:41:00 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageType:getசேவைDetails
+[Sun Sep 09 2018 20:41:00 GMT-0400 (EDT)] INFO {
+    "0": {
+        "pageId": "0",
+        "pageModel": "CDR",
+        "map": "0CdrDashboard"
+    },
+    "1": {
+        "pageId": "1",
+        "pageModel": "CDR",
+        "map": "1CdrDashboard"
+    },
+    "2": {
+        "pageId": "2",
+        "pageModel": "BTS",
+        "map": "SINGNUP"
+    },
+    "3": {
+        "pageId": "3",
+        "pageModel": "BTS",
+        "map": "SINGNUP"
+    },
+    "4": {
+        "pageId": "4",
+        "pageModel": "BTS",
+        "map": "CardDetails"
+    },
+    "UserDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "map": "UserDetails"
+    },
+    "loginDetails": {
+        "pageId": "LoginDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "loginDetails"
+    },
+    "userDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "userDetails"
+    },
+    "mail": {
+        "pageId": "mail",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "outboundMail"
+    },
+    "iot": {
+        "pageId": "postVibration",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "iot"
+    },
+    "ServiceDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "ServiceDetails"
+    },
+    "RegisterUser": {
+        "pageId": "RegisterUser",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "RegisterUser"
+    }
+}
+[Sun Sep 09 2018 20:42:49 GMT-0400 (EDT)] INFO InvokeDB:IDB.001 valWithSch
+[Sun Sep 09 2018 20:42:49 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageId:serviceDetails
+[Sun Sep 09 2018 20:42:49 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageType:getServiceDetails
+[Sun Sep 09 2018 20:42:49 GMT-0400 (EDT)] INFO {
+    "0": {
+        "pageId": "0",
+        "pageModel": "CDR",
+        "map": "0CdrDashboard"
+    },
+    "1": {
+        "pageId": "1",
+        "pageModel": "CDR",
+        "map": "1CdrDashboard"
+    },
+    "2": {
+        "pageId": "2",
+        "pageModel": "BTS",
+        "map": "SINGNUP"
+    },
+    "3": {
+        "pageId": "3",
+        "pageModel": "BTS",
+        "map": "SINGNUP"
+    },
+    "4": {
+        "pageId": "4",
+        "pageModel": "BTS",
+        "map": "CardDetails"
+    },
+    "UserDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "map": "UserDetails"
+    },
+    "loginDetails": {
+        "pageId": "LoginDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "loginDetails"
+    },
+    "userDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "userDetails"
+    },
+    "mail": {
+        "pageId": "mail",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "outboundMail"
+    },
+    "iot": {
+        "pageId": "postVibration",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "iot"
+    },
+    "ServiceDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "ServiceDetails"
+    },
+    "RegisterUser": {
+        "pageId": "RegisterUser",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "RegisterUser"
+    }
+}
+[Sun Sep 09 2018 20:43:16 GMT-0400 (EDT)] INFO InvokeDB:IDB.001 valWithSch
+[Sun Sep 09 2018 20:43:16 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageId:ServiceDetails
+[Sun Sep 09 2018 20:43:16 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageType:getServiceDetails
+[Sun Sep 09 2018 20:43:16 GMT-0400 (EDT)] INFO {
+    "0": {
+        "pageId": "0",
+        "pageModel": "CDR",
+        "map": "0CdrDashboard"
+    },
+    "1": {
+        "pageId": "1",
+        "pageModel": "CDR",
+        "map": "1CdrDashboard"
+    },
+    "2": {
+        "pageId": "2",
+        "pageModel": "BTS",
+        "map": "SINGNUP"
+    },
+    "3": {
+        "pageId": "3",
+        "pageModel": "BTS",
+        "map": "SINGNUP"
+    },
+    "4": {
+        "pageId": "4",
+        "pageModel": "BTS",
+        "map": "CardDetails"
+    },
+    "UserDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "map": "UserDetails"
+    },
+    "loginDetails": {
+        "pageId": "LoginDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "loginDetails"
+    },
+    "userDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "userDetails"
+    },
+    "mail": {
+        "pageId": "mail",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "outboundMail"
+    },
+    "iot": {
+        "pageId": "postVibration",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "iot"
+    },
+    "ServiceDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "ServiceDetails"
+    },
+    "RegisterUser": {
+        "pageId": "RegisterUser",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "RegisterUser"
+    }
+}
+[Sun Sep 09 2018 20:43:16 GMT-0400 (EDT)] INFO path=./map/ServiceDetails
+[Sun Sep 09 2018 20:43:16 GMT-0400 (EDT)] INFO pageType=getServiceDetails
+[Sun Sep 09 2018 20:44:37 GMT-0400 (EDT)] INFO InvokeDB:IDB.001 valWithSch
+[Sun Sep 09 2018 20:45:00 GMT-0400 (EDT)] INFO InvokeDB:IDB.001 valWithSch
+[Sun Sep 09 2018 20:46:27 GMT-0400 (EDT)] INFO InvokeDB:IDB.001 valWithSch
+[Sun Sep 09 2018 20:46:27 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageId:ServiceDetails
+[Sun Sep 09 2018 20:46:27 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageType:getServiceDetails
+[Sun Sep 09 2018 20:46:27 GMT-0400 (EDT)] INFO {
+    "0": {
+        "pageId": "0",
+        "pageModel": "CDR",
+        "map": "0CdrDashboard"
+    },
+    "1": {
+        "pageId": "1",
+        "pageModel": "CDR",
+        "map": "1CdrDashboard"
+    },
+    "2": {
+        "pageId": "2",
+        "pageModel": "BTS",
+        "map": "SINGNUP"
+    },
+    "3": {
+        "pageId": "3",
+        "pageModel": "BTS",
+        "map": "SINGNUP"
+    },
+    "4": {
+        "pageId": "4",
+        "pageModel": "BTS",
+        "map": "CardDetails"
+    },
+    "UserDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "map": "UserDetails"
+    },
+    "loginDetails": {
+        "pageId": "LoginDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "loginDetails"
+    },
+    "userDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "userDetails"
+    },
+    "mail": {
+        "pageId": "mail",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "outboundMail"
+    },
+    "iot": {
+        "pageId": "postVibration",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "iot"
+    },
+    "ServiceDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "ServiceDetails"
+    },
+    "RegisterUser": {
+        "pageId": "RegisterUser",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "RegisterUser"
+    }
+}
+[Sun Sep 09 2018 20:46:27 GMT-0400 (EDT)] INFO path=./map/ServiceDetails
+[Sun Sep 09 2018 20:46:27 GMT-0400 (EDT)] INFO pageType=getServiceDetails
+[Sun Sep 09 2018 20:48:58 GMT-0400 (EDT)] INFO InvokeDB:IDB.001 valWithSch
+[Sun Sep 09 2018 20:48:58 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageId:ServiceDetails
+[Sun Sep 09 2018 20:48:58 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageType:getServiceDetails
+[Sun Sep 09 2018 20:48:58 GMT-0400 (EDT)] INFO {
+    "0": {
+        "pageId": "0",
+        "pageModel": "CDR",
+        "map": "0CdrDashboard"
+    },
+    "1": {
+        "pageId": "1",
+        "pageModel": "CDR",
+        "map": "1CdrDashboard"
+    },
+    "2": {
+        "pageId": "2",
+        "pageModel": "BTS",
+        "map": "SINGNUP"
+    },
+    "3": {
+        "pageId": "3",
+        "pageModel": "BTS",
+        "map": "SINGNUP"
+    },
+    "4": {
+        "pageId": "4",
+        "pageModel": "BTS",
+        "map": "CardDetails"
+    },
+    "UserDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "map": "UserDetails"
+    },
+    "loginDetails": {
+        "pageId": "LoginDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "loginDetails"
+    },
+    "userDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "userDetails"
+    },
+    "mail": {
+        "pageId": "mail",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "outboundMail"
+    },
+    "iot": {
+        "pageId": "postVibration",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "iot"
+    },
+    "ServiceDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "ServiceDetails"
+    },
+    "RegisterUser": {
+        "pageId": "RegisterUser",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "RegisterUser"
+    }
+}
+[Sun Sep 09 2018 20:48:58 GMT-0400 (EDT)] INFO path=./map/ServiceDetails
+[Sun Sep 09 2018 20:48:58 GMT-0400 (EDT)] INFO pageType=getServiceDetails
+[Sun Sep 09 2018 21:01:41 GMT-0400 (EDT)] INFO InvokeDB:IDB.001 valWithSch
+[Sun Sep 09 2018 21:01:41 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageId:ServiceDetails
+[Sun Sep 09 2018 21:01:41 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageType:getServiceDetails
+[Sun Sep 09 2018 21:01:41 GMT-0400 (EDT)] INFO {
+    "0": {
+        "pageId": "0",
+        "pageModel": "CDR",
+        "map": "0CdrDashboard"
+    },
+    "1": {
+        "pageId": "1",
+        "pageModel": "CDR",
+        "map": "1CdrDashboard"
+    },
+    "2": {
+        "pageId": "2",
+        "pageModel": "BTS",
+        "map": "SINGNUP"
+    },
+    "3": {
+        "pageId": "3",
+        "pageModel": "BTS",
+        "map": "SINGNUP"
+    },
+    "4": {
+        "pageId": "4",
+        "pageModel": "BTS",
+        "map": "CardDetails"
+    },
+    "UserDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "map": "UserDetails"
+    },
+    "loginDetails": {
+        "pageId": "LoginDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "loginDetails"
+    },
+    "userDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "userDetails"
+    },
+    "mail": {
+        "pageId": "mail",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "outboundMail"
+    },
+    "iot": {
+        "pageId": "postVibration",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "iot"
+    },
+    "ServiceDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "ServiceDetails"
+    },
+    "RegisterUser": {
+        "pageId": "RegisterUser",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "RegisterUser"
+    }
+}
+[Sun Sep 09 2018 21:01:41 GMT-0400 (EDT)] INFO path=./map/ServiceDetails
+[Sun Sep 09 2018 21:01:41 GMT-0400 (EDT)] INFO pageType=getServiceDetails
+[Sun Sep 09 2018 21:03:10 GMT-0400 (EDT)] INFO InvokeDB:IDB.001 valWithSch
+[Sun Sep 09 2018 21:03:10 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageId:ServiceDetails
+[Sun Sep 09 2018 21:03:10 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageType:getServiceDetails
+[Sun Sep 09 2018 21:03:10 GMT-0400 (EDT)] INFO {
+    "0": {
+        "pageId": "0",
+        "pageModel": "CDR",
+        "map": "0CdrDashboard"
+    },
+    "1": {
+        "pageId": "1",
+        "pageModel": "CDR",
+        "map": "1CdrDashboard"
+    },
+    "2": {
+        "pageId": "2",
+        "pageModel": "BTS",
+        "map": "SINGNUP"
+    },
+    "3": {
+        "pageId": "3",
+        "pageModel": "BTS",
+        "map": "SINGNUP"
+    },
+    "4": {
+        "pageId": "4",
+        "pageModel": "BTS",
+        "map": "CardDetails"
+    },
+    "UserDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "map": "UserDetails"
+    },
+    "loginDetails": {
+        "pageId": "LoginDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "loginDetails"
+    },
+    "userDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "userDetails"
+    },
+    "mail": {
+        "pageId": "mail",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "outboundMail"
+    },
+    "iot": {
+        "pageId": "postVibration",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "iot"
+    },
+    "ServiceDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "ServiceDetails"
+    },
+    "RegisterUser": {
+        "pageId": "RegisterUser",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "RegisterUser"
+    }
+}
+[Sun Sep 09 2018 21:03:10 GMT-0400 (EDT)] INFO path=./map/ServiceDetails
+[Sun Sep 09 2018 21:03:10 GMT-0400 (EDT)] INFO pageType=getServiceDetails
+[Sun Sep 09 2018 21:08:47 GMT-0400 (EDT)] INFO InvokeDB:IDB.001 valWithSch
+[Sun Sep 09 2018 21:08:47 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageId:ServiceDetails
+[Sun Sep 09 2018 21:08:47 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageType:getServiceDetails
+[Sun Sep 09 2018 21:08:47 GMT-0400 (EDT)] INFO {
+    "0": {
+        "pageId": "0",
+        "pageModel": "CDR",
+        "map": "0CdrDashboard"
+    },
+    "1": {
+        "pageId": "1",
+        "pageModel": "CDR",
+        "map": "1CdrDashboard"
+    },
+    "2": {
+        "pageId": "2",
+        "pageModel": "BTS",
+        "map": "SINGNUP"
+    },
+    "3": {
+        "pageId": "3",
+        "pageModel": "BTS",
+        "map": "SINGNUP"
+    },
+    "4": {
+        "pageId": "4",
+        "pageModel": "BTS",
+        "map": "CardDetails"
+    },
+    "UserDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "map": "UserDetails"
+    },
+    "loginDetails": {
+        "pageId": "LoginDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "loginDetails"
+    },
+    "userDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "userDetails"
+    },
+    "mail": {
+        "pageId": "mail",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "outboundMail"
+    },
+    "iot": {
+        "pageId": "postVibration",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "iot"
+    },
+    "ServiceDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "ServiceDetails"
+    },
+    "RegisterUser": {
+        "pageId": "RegisterUser",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "RegisterUser"
+    }
+}
+[Sun Sep 09 2018 21:08:47 GMT-0400 (EDT)] INFO path=./map/ServiceDetails
+[Sun Sep 09 2018 21:08:47 GMT-0400 (EDT)] INFO pageType=getServiceDetails
+[Sun Sep 09 2018 21:12:27 GMT-0400 (EDT)] INFO InvokeDB:IDB.001 valWithSch
+[Sun Sep 09 2018 21:12:27 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageId:ServiceDetails
+[Sun Sep 09 2018 21:12:27 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageType:getServiceDetails
+[Sun Sep 09 2018 21:12:27 GMT-0400 (EDT)] INFO {
+    "0": {
+        "pageId": "0",
+        "pageModel": "CDR",
+        "map": "0CdrDashboard"
+    },
+    "1": {
+        "pageId": "1",
+        "pageModel": "CDR",
+        "map": "1CdrDashboard"
+    },
+    "2": {
+        "pageId": "2",
+        "pageModel": "BTS",
+        "map": "SINGNUP"
+    },
+    "3": {
+        "pageId": "3",
+        "pageModel": "BTS",
+        "map": "SINGNUP"
+    },
+    "4": {
+        "pageId": "4",
+        "pageModel": "BTS",
+        "map": "CardDetails"
+    },
+    "UserDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "map": "UserDetails"
+    },
+    "loginDetails": {
+        "pageId": "LoginDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "loginDetails"
+    },
+    "userDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "userDetails"
+    },
+    "mail": {
+        "pageId": "mail",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "outboundMail"
+    },
+    "iot": {
+        "pageId": "postVibration",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "iot"
+    },
+    "ServiceDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "ServiceDetails"
+    },
+    "RegisterUser": {
+        "pageId": "RegisterUser",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "RegisterUser"
+    }
+}
+[Sun Sep 09 2018 21:12:27 GMT-0400 (EDT)] INFO path=./map/ServiceDetails
+[Sun Sep 09 2018 21:12:27 GMT-0400 (EDT)] INFO pageType=getServiceDetails
+[Sun Sep 09 2018 21:33:50 GMT-0400 (EDT)] INFO InvokeDB:IDB.001 valWithSch
+[Sun Sep 09 2018 21:33:50 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageId:ServiceDetails
+[Sun Sep 09 2018 21:33:50 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageType:getServiceDetails
+[Sun Sep 09 2018 21:33:50 GMT-0400 (EDT)] INFO {
+    "0": {
+        "pageId": "0",
+        "pageModel": "CDR",
+        "map": "0CdrDashboard"
+    },
+    "1": {
+        "pageId": "1",
+        "pageModel": "CDR",
+        "map": "1CdrDashboard"
+    },
+    "2": {
+        "pageId": "2",
+        "pageModel": "BTS",
+        "map": "SINGNUP"
+    },
+    "3": {
+        "pageId": "3",
+        "pageModel": "BTS",
+        "map": "SINGNUP"
+    },
+    "4": {
+        "pageId": "4",
+        "pageModel": "BTS",
+        "map": "CardDetails"
+    },
+    "UserDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "map": "UserDetails"
+    },
+    "loginDetails": {
+        "pageId": "LoginDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "loginDetails"
+    },
+    "userDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "userDetails"
+    },
+    "mail": {
+        "pageId": "mail",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "outboundMail"
+    },
+    "iot": {
+        "pageId": "postVibration",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "iot"
+    },
+    "ServiceDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "ServiceDetails"
+    },
+    "RegisterUser": {
+        "pageId": "RegisterUser",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "RegisterUser"
+    }
+}
+[Sun Sep 09 2018 21:33:50 GMT-0400 (EDT)] INFO path=./map/ServiceDetails
+[Sun Sep 09 2018 21:33:50 GMT-0400 (EDT)] INFO pageType=getServiceDetails
+[Sun Sep 09 2018 21:35:21 GMT-0400 (EDT)] INFO InvokeDB:IDB.001 valWithSch
+[Sun Sep 09 2018 21:35:21 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageId:ServiceDetails
+[Sun Sep 09 2018 21:35:21 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageType:getServiceDetails
+[Sun Sep 09 2018 21:35:21 GMT-0400 (EDT)] INFO {
+    "0": {
+        "pageId": "0",
+        "pageModel": "CDR",
+        "map": "0CdrDashboard"
+    },
+    "1": {
+        "pageId": "1",
+        "pageModel": "CDR",
+        "map": "1CdrDashboard"
+    },
+    "2": {
+        "pageId": "2",
+        "pageModel": "BTS",
+        "map": "SINGNUP"
+    },
+    "3": {
+        "pageId": "3",
+        "pageModel": "BTS",
+        "map": "SINGNUP"
+    },
+    "4": {
+        "pageId": "4",
+        "pageModel": "BTS",
+        "map": "CardDetails"
+    },
+    "UserDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "map": "UserDetails"
+    },
+    "loginDetails": {
+        "pageId": "LoginDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "loginDetails"
+    },
+    "userDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "userDetails"
+    },
+    "mail": {
+        "pageId": "mail",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "outboundMail"
+    },
+    "iot": {
+        "pageId": "postVibration",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "iot"
+    },
+    "ServiceDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "ServiceDetails"
+    },
+    "RegisterUser": {
+        "pageId": "RegisterUser",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "RegisterUser"
+    }
+}
+[Sun Sep 09 2018 21:35:21 GMT-0400 (EDT)] INFO path=./map/ServiceDetails
+[Sun Sep 09 2018 21:35:21 GMT-0400 (EDT)] INFO pageType=getServiceDetails
+[Sun Sep 09 2018 21:42:07 GMT-0400 (EDT)] INFO InvokeDB:IDB.001 valWithSch
+[Sun Sep 09 2018 21:42:07 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageId:ServiceDetails
+[Sun Sep 09 2018 21:42:07 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageType:getServiceDetails
+[Sun Sep 09 2018 21:42:07 GMT-0400 (EDT)] INFO {
+    "0": {
+        "pageId": "0",
+        "pageModel": "CDR",
+        "map": "0CdrDashboard"
+    },
+    "1": {
+        "pageId": "1",
+        "pageModel": "CDR",
+        "map": "1CdrDashboard"
+    },
+    "2": {
+        "pageId": "2",
+        "pageModel": "BTS",
+        "map": "SINGNUP"
+    },
+    "3": {
+        "pageId": "3",
+        "pageModel": "BTS",
+        "map": "SINGNUP"
+    },
+    "4": {
+        "pageId": "4",
+        "pageModel": "BTS",
+        "map": "CardDetails"
+    },
+    "UserDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "map": "UserDetails"
+    },
+    "loginDetails": {
+        "pageId": "LoginDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "loginDetails"
+    },
+    "userDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "userDetails"
+    },
+    "mail": {
+        "pageId": "mail",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "outboundMail"
+    },
+    "iot": {
+        "pageId": "postVibration",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "iot"
+    },
+    "ServiceDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "ServiceDetails"
+    },
+    "RegisterUser": {
+        "pageId": "RegisterUser",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "RegisterUser"
+    }
+}
+[Sun Sep 09 2018 21:42:07 GMT-0400 (EDT)] INFO path=./map/ServiceDetails
+[Sun Sep 09 2018 21:42:07 GMT-0400 (EDT)] INFO pageType=getServiceDetails
+[Sun Sep 09 2018 21:43:13 GMT-0400 (EDT)] INFO InvokeDB:IDB.001 valWithSch
+[Sun Sep 09 2018 21:43:13 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageId:ServiceDetails
+[Sun Sep 09 2018 21:43:13 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageType:getServiceDetails
+[Sun Sep 09 2018 21:43:13 GMT-0400 (EDT)] INFO {
+    "0": {
+        "pageId": "0",
+        "pageModel": "CDR",
+        "map": "0CdrDashboard"
+    },
+    "1": {
+        "pageId": "1",
+        "pageModel": "CDR",
+        "map": "1CdrDashboard"
+    },
+    "2": {
+        "pageId": "2",
+        "pageModel": "BTS",
+        "map": "SINGNUP"
+    },
+    "3": {
+        "pageId": "3",
+        "pageModel": "BTS",
+        "map": "SINGNUP"
+    },
+    "4": {
+        "pageId": "4",
+        "pageModel": "BTS",
+        "map": "CardDetails"
+    },
+    "UserDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "map": "UserDetails"
+    },
+    "loginDetails": {
+        "pageId": "LoginDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "loginDetails"
+    },
+    "userDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "userDetails"
+    },
+    "mail": {
+        "pageId": "mail",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "outboundMail"
+    },
+    "iot": {
+        "pageId": "postVibration",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "iot"
+    },
+    "ServiceDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "ServiceDetails"
+    },
+    "RegisterUser": {
+        "pageId": "RegisterUser",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "RegisterUser"
+    }
+}
+[Sun Sep 09 2018 21:43:13 GMT-0400 (EDT)] INFO path=./map/ServiceDetails
+[Sun Sep 09 2018 21:43:13 GMT-0400 (EDT)] INFO pageType=getServiceDetails
+[Sun Sep 09 2018 21:46:35 GMT-0400 (EDT)] INFO InvokeDB:IDB.001 valWithSch
+[Sun Sep 09 2018 21:46:35 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageId:ServiceDetails
+[Sun Sep 09 2018 21:46:35 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageType:getServiceDetails
+[Sun Sep 09 2018 21:46:35 GMT-0400 (EDT)] INFO {
+    "0": {
+        "pageId": "0",
+        "pageModel": "CDR",
+        "map": "0CdrDashboard"
+    },
+    "1": {
+        "pageId": "1",
+        "pageModel": "CDR",
+        "map": "1CdrDashboard"
+    },
+    "2": {
+        "pageId": "2",
+        "pageModel": "BTS",
+        "map": "SINGNUP"
+    },
+    "3": {
+        "pageId": "3",
+        "pageModel": "BTS",
+        "map": "SINGNUP"
+    },
+    "4": {
+        "pageId": "4",
+        "pageModel": "BTS",
+        "map": "CardDetails"
+    },
+    "UserDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "map": "UserDetails"
+    },
+    "loginDetails": {
+        "pageId": "LoginDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "loginDetails"
+    },
+    "userDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "userDetails"
+    },
+    "mail": {
+        "pageId": "mail",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "outboundMail"
+    },
+    "iot": {
+        "pageId": "postVibration",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "iot"
+    },
+    "ServiceDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "ServiceDetails"
+    },
+    "RegisterUser": {
+        "pageId": "RegisterUser",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "RegisterUser"
+    }
+}
+[Sun Sep 09 2018 21:46:35 GMT-0400 (EDT)] INFO path=./map/ServiceDetails
+[Sun Sep 09 2018 21:46:35 GMT-0400 (EDT)] INFO pageType=getServiceDetails
+[Sun Sep 09 2018 21:49:53 GMT-0400 (EDT)] INFO InvokeDB:IDB.001 valWithSch
+[Sun Sep 09 2018 21:49:53 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageId:ServiceDetails
+[Sun Sep 09 2018 21:49:53 GMT-0400 (EDT)] INFO InvokeDB:IDB.002 mapper pageType:getServiceDetails
+[Sun Sep 09 2018 21:49:53 GMT-0400 (EDT)] INFO {
+    "0": {
+        "pageId": "0",
+        "pageModel": "CDR",
+        "map": "0CdrDashboard"
+    },
+    "1": {
+        "pageId": "1",
+        "pageModel": "CDR",
+        "map": "1CdrDashboard"
+    },
+    "2": {
+        "pageId": "2",
+        "pageModel": "BTS",
+        "map": "SINGNUP"
+    },
+    "3": {
+        "pageId": "3",
+        "pageModel": "BTS",
+        "map": "SINGNUP"
+    },
+    "4": {
+        "pageId": "4",
+        "pageModel": "BTS",
+        "map": "CardDetails"
+    },
+    "UserDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "map": "UserDetails"
+    },
+    "loginDetails": {
+        "pageId": "LoginDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "loginDetails"
+    },
+    "userDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "userDetails"
+    },
+    "mail": {
+        "pageId": "mail",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "outboundMail"
+    },
+    "iot": {
+        "pageId": "postVibration",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "iot"
+    },
+    "ServiceDetails": {
+        "pageId": "UserDetails",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "ServiceDetails"
+    },
+    "RegisterUser": {
+        "pageId": "RegisterUser",
+        "pageModel": "CDR",
+        "pageMethod": "POST",
+        "map": "RegisterUser"
+    }
+}
+[Sun Sep 09 2018 21:49:53 GMT-0400 (EDT)] INFO path=./map/ServiceDetails
+[Sun Sep 09 2018 21:49:53 GMT-0400 (EDT)] INFO pageType=getServiceDetails
+[Sun Sep 09 2018 21:50:55 GMT-0400 (EDT)] INFO InvokeDB:IDB.001 valWithSch
