@@ -1,7 +1,7 @@
 var வெளிப்படுத்து = require('express');
 var கட்டமைப்பு = require('./கட்டமைப்பு/கட்டமைப்பு.json');
 var சேவையகம் = வெளிப்படுத்து();
-var idb = require('./idb/InvokeDB');
+var தரவுத்தளவுஇயக்கம் = require('./தரவுத்தளவுஇயக்கம்/InvokeDB');
 //var log = require('log')(தொகுதி);
 var Log = require('log'),
     fs = require('fs'),
@@ -61,97 +61,97 @@ var உடல்பாகுபாடு = require('body-parser');
     மீட்டல்(மனு);
 }
 
-சேவைHandler = சேவைக்கையாளி = function (req, res) {
-    req.params.பணி = req.params.task;
-    req.params.தொகுதி = req.params.module;
-    பதிவு.info("req.params.பணி:", req.params.பணி, "req.params.தொகுதி", req.params.தொகுதி);
-    மையசெயல்பாடுகளைசேர்(req, function (req) {
+serviceHandler = சேவைக்கையாளி = function(மனு, பதில்) {
+    மனு.params.பணி = மனு.params.task;
+    மனு.params.தொகுதி = மனு.params.module;
+    பதிவு.info("மனு.params.பணி:", மனு.params.பணி, "மனு.params.தொகுதி", மனு.params.தொகுதி);
+    மையசெயல்பாடுகளைசேர்(மனு, function (மனு) {
 
         பதிவு.info("calling மையசெயல்பாடுகளைசேர்");
 
         பதிவு.debug();
-        //log.info(req);
+        //log.info(மனு);
 
         var pageId = "ServiceDetails";
         var pageType = 'getServiceDetails';
-        //	var SchemaJson=[{"group":"USS","name":"சேவைDetails","label":"Basic Details","பணி":"ES","desc":"","htmlType":"PAGE","entitle":"NONREADONLY","enttlname":"","mndf":"N","dataType":"PAGE","cclass":"ctable","parent":"","parentHtmlType":"","validate":"","dflt":"","min":"0","max":"60","tips":"","onkeyup":"onKeyUp(this);","onchange":"onChange(this);","onkeydown":"onKeyDown(this);","onkeypress":"onKeyPress(this);","onclick":"onClick(this);","onblure":"onBlure(this);","listVal":"0","help":"N","helpLink":"helpload","xml":"Y","xmlname":"","Xpath":"/","maxCol":"1","col":"0","childs":[{"group":"USS","name":"சேவைs","label":"சேவைs","பணி":"NONE","desc":"","htmlType":"CONTAINER","entitle":"READONLY","enttlname":"","mndf":"N","dataType":"CONTAINER","cclass":"ctable","parent":"","parentHtmlType":"","validate":"","dflt":"","min":"0","max":"60","tips":"","onkeyup":"onKeyUp(this);","onchange":"onChange(this);","onkeydown":"onKeyDown(this);","onkeypress":"onKeyPress(this);","onclick":"onClick(this);","onblure":"onBlure(this);","listVal":"||A|A-ADD|M|M-MODIFY|I|I-INQURY|C|C-CANCEL|V|V-VERIFY","help":"N","helpLink":"helpload","xml":"Y","xmlname":"","Xpath":"/","maxCol":"unlimited","col":"0","childs":[{"group":"USS","name":"resSjson","label":"Response schema json","பணி":"NONE","desc":"","htmlType":"TEXT","entitle":"READONLY","enttlname":"","mndf":"N","dataType":"VARCHAR","cclass":"ctable","parent":"","parentHtmlType":"","validate":"","dflt":"","min":"0","max":"unlimited","tips":"","onkeyup":"onKeyUp(this);","onchange":"onChange(this);","onkeydown":"onKeyDown(this);","onkeypress":"onKeyPress(this);","onclick":"onClick(this);","onblure":"onBlure(this);","listVal":"||A|A-ADD|M|M-MODIFY|I|I-INQURY|C|C-CANCEL|V|V-VERIFY","help":"N","helpLink":"helpload","xml":"Y","xmlname":"","Xpath":"/","maxCol":"1","col":"0","childs":[]},{"group":"USS","name":"reqSjson","label":"Request schema json","பணி":"NONE","desc":"","htmlType":"TEXT","entitle":"READONLY","enttlname":"","mndf":"N","dataType":"VARCHAR","cclass":"ctable","parent":"","parentHtmlType":"","validate":"","dflt":"","min":"0","max":"unlimited","tips":"","onkeyup":"onKeyUp(this);","onchange":"onChange(this);","onkeydown":"onKeyDown(this);","onkeypress":"onKeyPress(this);","onclick":"onClick(this);","onblure":"onBlure(this);","listVal":"||A|A-ADD|M|M-MODIFY|I|I-INQURY|C|C-CANCEL|V|V-VERIFY","help":"N","helpLink":"helpload","xml":"Y","xmlname":"","Xpath":"/","maxCol":"1","col":"0","childs":[]},{"group":"USS","name":"authReqd","label":"Request Schema Json","பணி":"NONE","desc":"","htmlType":"TEXT","entitle":"READONLY","enttlname":"","mndf":"N","dataType":"VARCHAR","cclass":"ctable","parent":"","parentHtmlType":"","validate":"","dflt":"","min":"0","max":"60","tips":"","onkeyup":"onKeyUp(this);","onchange":"onChange(this);","onkeydown":"onKeyDown(this);","onkeypress":"onKeyPress(this);","onclick":"onClick(this);","onblure":"onBlure(this);","listVal":"||A|A-ADD|M|M-MODIFY|I|I-INQURY|C|C-CANCEL|V|V-VERIFY","help":"N","helpLink":"helpload","xml":"Y","xmlname":"","Xpath":"/","maxCol":"1","col":"0","childs":[]},{"group":"USS","name":"பணி","label":"பணி","பணி":"NONE","desc":"","htmlType":"TEXT","entitle":"READONLY","enttlname":"","mndf":"N","dataType":"VARCHAR","cclass":"ctable","parent":"","parentHtmlType":"","validate":"","dflt":"","min":"0","max":"60","tips":"","onkeyup":"onKeyUp(this);","onchange":"onChange(this);","onkeydown":"onKeyDown(this);","onkeypress":"onKeyPress(this);","onclick":"onClick(this);","onblure":"onBlure(this);","listVal":"||A|A-ADD|M|M-MODIFY|I|I-INQURY|C|C-CANCEL|V|V-VERIFY","help":"N","helpLink":"helpload","xml":"Y","xmlname":"","Xpath":"/","maxCol":"1","col":"0","childs":[]}]},{"group":"USS","name":"சேவைName","label":"","பணி":"NONE","desc":"","htmlType":"VARCHAR","entitle":"READONLY","enttlname":"","mndf":"N","dataType":"VARCHAR","cclass":"ctable","parent":"","parentHtmlType":"","validate":"","dflt":"","min":"0","max":"60","tips":"","onkeyup":"onKeyUp(this);","onchange":"onChange(this);","onkeydown":"onKeyDown(this);","onkeypress":"onKeyPress(this);","onclick":"onClick(this);","onblure":"onBlure(this);","listVal":"||A|A-ADD|M|M-MODIFY|I|I-INQURY|C|C-CANCEL|V|V-VERIFY","help":"N","helpLink":"helpload","xml":"Y","xmlname":"","Xpath":"/","maxCol":"1","col":"0","childs":[]}]}];
+        //	var SchemaJson=[{"group":"USS","name":"சேவைDetails","label":"Basic Details","பணி":"ES","desc":"","htmlType":"PAGE","entitle":"NONREADONLY","enttlname":"","mndf":"N","dataType":"PAGE","cclass":"ctable","parent":"","parentHtmlType":"","validate":"","dflt":"","min":"0","max":"60","tips":"","onkeyup":"onKeyUp(this);","onchange":"onChange(this);","onkeydown":"onKeyDown(this);","onkeypபதில்s":"onKeyPபதில்s(this);","onclick":"onClick(this);","onblure":"onBlure(this);","listVal":"0","help":"N","helpLink":"helpload","xml":"Y","xmlname":"","Xpath":"/","maxCol":"1","col":"0","childs":[{"group":"USS","name":"சேவைs","label":"சேவைs","பணி":"NONE","desc":"","htmlType":"CONTAINER","entitle":"READONLY","enttlname":"","mndf":"N","dataType":"CONTAINER","cclass":"ctable","parent":"","parentHtmlType":"","validate":"","dflt":"","min":"0","max":"60","tips":"","onkeyup":"onKeyUp(this);","onchange":"onChange(this);","onkeydown":"onKeyDown(this);","onkeypபதில்s":"onKeyPபதில்s(this);","onclick":"onClick(this);","onblure":"onBlure(this);","listVal":"||A|A-ADD|M|M-MODIFY|I|I-INQURY|C|C-CANCEL|V|V-VERIFY","help":"N","helpLink":"helpload","xml":"Y","xmlname":"","Xpath":"/","maxCol":"unlimited","col":"0","childs":[{"group":"USS","name":"பதில்Sjson","label":"பதில்ponse schema json","பணி":"NONE","desc":"","htmlType":"TEXT","entitle":"READONLY","enttlname":"","mndf":"N","dataType":"VARCHAR","cclass":"ctable","parent":"","parentHtmlType":"","validate":"","dflt":"","min":"0","max":"unlimited","tips":"","onkeyup":"onKeyUp(this);","onchange":"onChange(this);","onkeydown":"onKeyDown(this);","onkeypபதில்s":"onKeyPபதில்s(this);","onclick":"onClick(this);","onblure":"onBlure(this);","listVal":"||A|A-ADD|M|M-MODIFY|I|I-INQURY|C|C-CANCEL|V|V-VERIFY","help":"N","helpLink":"helpload","xml":"Y","xmlname":"","Xpath":"/","maxCol":"1","col":"0","childs":[]},{"group":"USS","name":"மனுSjson","label":"மனுuest schema json","பணி":"NONE","desc":"","htmlType":"TEXT","entitle":"READONLY","enttlname":"","mndf":"N","dataType":"VARCHAR","cclass":"ctable","parent":"","parentHtmlType":"","validate":"","dflt":"","min":"0","max":"unlimited","tips":"","onkeyup":"onKeyUp(this);","onchange":"onChange(this);","onkeydown":"onKeyDown(this);","onkeypபதில்s":"onKeyPபதில்s(this);","onclick":"onClick(this);","onblure":"onBlure(this);","listVal":"||A|A-ADD|M|M-MODIFY|I|I-INQURY|C|C-CANCEL|V|V-VERIFY","help":"N","helpLink":"helpload","xml":"Y","xmlname":"","Xpath":"/","maxCol":"1","col":"0","childs":[]},{"group":"USS","name":"authமனுd","label":"மனுuest Schema Json","பணி":"NONE","desc":"","htmlType":"TEXT","entitle":"READONLY","enttlname":"","mndf":"N","dataType":"VARCHAR","cclass":"ctable","parent":"","parentHtmlType":"","validate":"","dflt":"","min":"0","max":"60","tips":"","onkeyup":"onKeyUp(this);","onchange":"onChange(this);","onkeydown":"onKeyDown(this);","onkeypபதில்s":"onKeyPபதில்s(this);","onclick":"onClick(this);","onblure":"onBlure(this);","listVal":"||A|A-ADD|M|M-MODIFY|I|I-INQURY|C|C-CANCEL|V|V-VERIFY","help":"N","helpLink":"helpload","xml":"Y","xmlname":"","Xpath":"/","maxCol":"1","col":"0","childs":[]},{"group":"USS","name":"பணி","label":"பணி","பணி":"NONE","desc":"","htmlType":"TEXT","entitle":"READONLY","enttlname":"","mndf":"N","dataType":"VARCHAR","cclass":"ctable","parent":"","parentHtmlType":"","validate":"","dflt":"","min":"0","max":"60","tips":"","onkeyup":"onKeyUp(this);","onchange":"onChange(this);","onkeydown":"onKeyDown(this);","onkeypபதில்s":"onKeyPபதில்s(this);","onclick":"onClick(this);","onblure":"onBlure(this);","listVal":"||A|A-ADD|M|M-MODIFY|I|I-INQURY|C|C-CANCEL|V|V-VERIFY","help":"N","helpLink":"helpload","xml":"Y","xmlname":"","Xpath":"/","maxCol":"1","col":"0","childs":[]}]},{"group":"USS","name":"சேவைName","label":"","பணி":"NONE","desc":"","htmlType":"VARCHAR","entitle":"READONLY","enttlname":"","mndf":"N","dataType":"VARCHAR","cclass":"ctable","parent":"","parentHtmlType":"","validate":"","dflt":"","min":"0","max":"60","tips":"","onkeyup":"onKeyUp(this);","onchange":"onChange(this);","onkeydown":"onKeyDown(this);","onkeypபதில்s":"onKeyPபதில்s(this);","onclick":"onClick(this);","onblure":"onBlure(this);","listVal":"||A|A-ADD|M|M-MODIFY|I|I-INQURY|C|C-CANCEL|V|V-VERIFY","help":"N","helpLink":"helpload","xml":"Y","xmlname":"","Xpath":"/","maxCol":"1","col":"0","childs":[]}]}];
         var SchemaJson = require("./" + கட்டமைப்பு.சேவைகோரிக்கை);
         var DataJson = [{
             "ServiceDetails": [{
                 "services": [{
-                    "resSjson": "Response schema json",
-                    "reqSjson": "",
-                    "authReqd": "",
-                    "பணி": req.params.பணி,
+                    "பதில்Sjson": "பதில்ponse schema json",
+                    "மனுSjson": "",
+                    "authமனுd": "",
+                    "பணி": மனு.params.பணி,
                     "method": "POST"
                 }],
-                "serviceName": req.params.தொகுதி
+                "serviceName": மனு.params.தொகுதி
             }]
         }]
         log.info("calling InvokeDB for ServiceDetails");
 
-        idb.InvokeDB(pageId, pageType, SchemaJson, DataJson, SchemaJson, function (err, respSchemaJson, respDataJson) {
+        தரவுத்தளவுஇயக்கம்.InvokeDB(pageId, pageType, SchemaJson, DataJson, SchemaJson, function (err, பதில்pSchemaJson, பதில்pDataJson) {
             if (err) {
-                log.error(" Request has bad format:", err);
-                res.statusCode = 404;
-                return res.send({
-                    errorDesc: "Request is not found:" + err.message
+                log.error(" மனுuest has bad format:", err);
+                பதில்.statusCode = 404;
+                return பதில்.send({
+                    errorDesc: "மனுuest is not found:" + err.message
                 });
             }
-            log.info("calling validate response ");
-            err = heaeriesjson.valWithSch(respSchemaJson, respDataJson)
+            log.info("calling validate பதில்ponse ");
+            err = heaeriesjson.valWithSch(பதில்pSchemaJson, பதில்pDataJson)
             if (err) {
-                log.error("சேவை Details : Response Schema validation is failed : ", err);
-                res.statusCode = 500;
-                res.send({
+                log.error("சேவை Details : பதில்ponse Schema validation is failed : ", err);
+                பதில்.statusCode = 500;
+                பதில்.send({
                     errorDesc: "Internal Server Error"
                 });
-                throw new Error("Response Schema Validation Failed" + err.message);
+                throw new Error("பதில்ponse Schema Validation Failed" + err.message);
             }
-            log.info("calling validate response ");
+            log.info("calling validate பதில்ponse ");
             //TODO: if பணி is not found return 404
-            findservice(respDataJson[0].சேவைDetails[0].சேவைs, req.params.பணி, req.getMethod(), function (err, currentசேவை) {
+            சேவையைதேடு(பதில்pDataJson[0].சேவைDetails[0].சேவைs, மனு.params.பணி, மனு.getMethod(), function (err, currentசேவை) {
                 if (err) {
-                    log.error("findservice : ", err);
-                    res.statusCode = err.httpRespCode;
-                    return res.send({
+                    log.error("சேவையைதேடு" : ", err);
+                    பதில்.statusCode = err.httpபதில்pCode;
+                    return பதில்.send({
                         errorDesc: err.name + " " + err.message
                     });
                 }
 
-                clientParamInput(req, function (err, req, paramObj) {
+                clientParamInput(மனு, function (err, மனு, paramObj) {
                     log.info(" paramObj: ", paramObj);
 
                     if (err) {
-                        log.error("Request has invalid format: ", err);
-                        res.statusCode = 400;
-                        return res.send({
+                        log.error("மனுuest has invalid format: ", err);
+                        பதில்.statusCode = 400;
+                        return பதில்.send({
                             errorDesc: err.message
                         });
                     }
-                    var apiPageId = req.params.தொகுதி;
-                    var apiPageType = req.params.பணி;
-                    log.info("currentசேவை.reqSjson[0].name =" + currentசேவை.reqSjson[0].name);
-                    log.info("param =" + req.getParam(currentசேவை.reqSjson[0].name));
-                    log.info("req.param:" + JSON.stringify(req.params));
-                    log.info("req.body:" + JSON.stringify(req.body));
-                    var apiParamDataJson = eval(req.getParam(currentசேவை.reqSjson[0].name));
+                    var apiPageId = மனு.params.தொகுதி;
+                    var apiPageType = மனு.params.பணி;
+                    log.info("currentசேவை.மனுSjson[0].name =" + currentசேவை.மனுSjson[0].name);
+                    log.info("param =" + மனு.getParam(currentசேவை.மனுSjson[0].name));
+                    log.info("மனு.param:" + JSON.stringify(மனு.params));
+                    log.info("மனு.body:" + JSON.stringify(மனு.body));
+                    var apiParamDataJson = eval(மனு.getParam(currentசேவை.மனுSjson[0].name));
                     log.info("validate input");
-                    err = heaeriesjson.valWithSch(currentசேவை.reqSjson, apiParamDataJson);
+                    err = heaeriesjson.valWithSch(currentசேவை.மனுSjson, apiParamDataJson);
                     if (err) {
-                        log.error("Request has invalid format: ", err);
-                        res.statusCode = 400;
-                        return res.send({
+                        log.error("மனுuest has invalid format: ", err);
+                        பதில்.statusCode = 400;
+                        return பதில்.send({
                             errorDesc: err.message
                         });
                     }
                     log.info("call api mசேவையகம்er..", JSON.stringify(apiParamDataJson));
-                    idb.InvokeDB(apiPageId, apiPageType, currentசேவை.reqSjson, apiParamDataJson, currentசேவை.resSjson, function (err, apiSchemaJson, apiDataJson) {
-                        //res.send({"சேவைDetails" : respDataJson[0].சேவைDetails});
+                    தரவுத்தளவுஇயக்கம்.InvokeDB(apiPageId, apiPageType, currentசேவை.மனுSjson, apiParamDataJson, currentசேவை.பதில்Sjson, function (err, apiSchemaJson, apiDataJson) {
+                        //பதில்.send({"சேவைDetails" : பதில்pDataJson[0].சேவைDetails});
                         if (err) {
                             log.error("API  InvokeDB :", err);
-                            res.statusCode = err.httpRespCode;
-                            return res.send({
+                            பதில்.statusCode = err.httpபதில்pCode;
+                            return பதில்.send({
                                 errorDesc: err.name + " " + err.message
                             });
                         }
@@ -159,29 +159,29 @@ var உடல்பாகுபாடு = require('body-parser');
                         err = heaeriesjson.valWithSch(apiSchemaJson, apiDataJson);
                         if (err) {
                             log.error("Internal Server Errot", err);
-                            res.statusCode = 500;
-                            return res.send({
+                            பதில்.statusCode = 500;
+                            return பதில்.send({
                                 errorDesc: err.message
                             });
                         }
 
-                        res.statusCode = 201;
-                        signToken(res, secretkey, function (res) {
-                            return res.send(apiDataJson);
+                        பதில்.statusCode = 201;
+                        signToken(பதில், secretkey, function (பதில்) {
+                            return பதில்.send(apiDataJson);
                         });
                     });
 
                 });
             });
         });
-        return res.send({
+        return பதில்.send({
             "test": "test"
         });
     });
 }
 
 
-findService = function (services, task, method, callback) {
+சேவையைதேடு = function (services, task, method, callback) {
     for (var i = 0; i < services.length; i++) {
         if ((services[i].task == task) && (services[i].method == method)) {
             return callback(null, services[i]);
@@ -208,6 +208,6 @@ findService = function (services, task, method, callback) {
 
 சேவையகம்.use(வெளிப்படுத்து.static(__dirname + '/public'));
 var server = சேவையகம்.listen(கட்டமைப்பு.இணையமுகம், function () {
-    பதிவு.info("%s இணையத்தளம் %d என்ற இணையமுகத்தில் கவனிக்க தொடக்கிவிட்டது", கட்டமைப்பு.இணையதளம், server.address().port);
-    console.log('%s இணையத்தளம் %d என்ற இணையமுகத்தில் கவனிக்க தொடக்கிவிட்டது ', கட்டமைப்பு.இணையதளம், server.address().port);
+    பதிவு.info("%s இணையத்தளம் %d என்ற இணையமுகத்தில் கவனிக்க தொடக்கிவிட்டது", கட்டமைப்பு.இணையதளம், server.addபதில்s().port);
+    console.log('%s இணையத்தளம் %d என்ற இணையமுகத்தில் கவனிக்க தொடக்கிவிட்டது ', கட்டமைப்பு.இணையதளம், server.addபதில்s().port);
 });

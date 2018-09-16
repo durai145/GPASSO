@@ -150,3 +150,5 @@
     at சேவைக்கையாளி (/Users/durai/node/gpasso/சேவையாகம்.js:68:5)
     at Layer.handle [as handle_request] (/Users/durai/node/node_modules/express/lib/router/layer.js:95:5)
     at next (/Users/durai/node/node_modules/express/lib/router/route.js:137:13)
+[Mon Sep 10 2018 20:39:17 GMT-0400 (EDT)] DEBUG a debug message
+[Mon Sep 10 2018 20:39:17 GMT-0400 (EDT)] INFO localhost இணையத்தளம் 3000 என்ற இணையமுகத்தில் கவனிக்க தொடக்கிவிட்டது
